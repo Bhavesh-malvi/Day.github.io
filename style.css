@@ -1,0 +1,659 @@
+@media (prefers-reduced-motion:no-preference) {
+    :root {
+        scroll-behavior: smooth
+    }
+}
+
+/* --------------------background img -------------------- */
+.background{
+    background:linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url(day-img/hero-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* -------------------------main header---------------------------------- */
+
+.main{
+    background-color: black;
+    height: 40px;
+}
+
+.header{
+    display: flex;
+    padding: 10px 100px;
+    margin-top: -5px;
+}
+
+.first-header{
+    font-size: 17px;
+    color: rgb(148, 145, 145);
+}
+
+.first-header span{
+    font-size: 20px;
+    margin-left: 10px;
+    color: #CC1616;
+}
+
+.second-header{
+    text-align: end;
+}
+.second-header ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.second-header a{
+    color: rgb(96, 96, 96);
+}
+
+.second-header a:hover{
+    color: white;
+}
+
+.bg-color{
+    background-color: #252525;
+}
+
+.bg-color a{
+    color: white;
+}
+
+.bg-color a:hover{
+    color: #CC1616;
+}
+
+.day-tag{
+    font-weight: bold;
+    margin-left: 90px;
+}
+
+
+/* ---------------------------------------nav bar------------------------------------- */
+
+.navbar-nav li{
+    margin-left: 30px;
+}
+
+
+.navbar-nav{
+    margin-left: auto;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* ----------------------------------home------------------------------ */
+
+.welcome h1{
+    color: white;
+    margin-left: 100px;
+    margin-top: 200px;
+    font-size: 50px;
+}
+
+.welcome h4{
+    color: white;
+    margin-left: 100px;
+}
+
+.btns{
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    width: 150px;
+    margin-left: 100px;
+    margin-top: 20px;
+    height: 40px;
+    transition: all ease 0.5s;
+}
+
+.btns a{
+    text-decoration: none;
+    color: white;
+}
+
+.btns a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.btns:hover{
+    border-color: #CC1616;
+    background-color: #CC1616;
+}
+
+/* ---------------------------------about---------------------------- */
+
+.about-box{
+    background-color: white;
+    margin-top: 200px;
+}
+
+.About{
+    justify-content: center;
+}
+
+.about-text{
+    margin-top: 100px;
+}
+
+.about-text p{
+    color: rgb(117, 116, 116);
+    font-weight: 400;
+}
+
+.about-text span{
+    color: #CC1616;
+    font-size: 18px;
+}
+
+.about-img{
+    margin-top: 100px;
+}
+
+.about-img img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.about-card{
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.card1{
+    margin-top: 30px;
+    margin-left: 20px;
+    box-shadow: 0 0 10px rgb(215, 214, 214);
+}
+
+.card-no{
+    font-size: 30px;
+    font-weight: bold;
+    color: #ce3838;
+    padding: 50px 15px;
+}
+
+.card-heading{
+    font-size: 25px;
+    padding: 0 15px;
+    margin-top: -30px;
+    font-weight: 500;
+}
+
+.card-text p{
+    color: gray;
+    padding: 10px 15px;
+}
+
+.myob-box{
+    display: block;
+    background-color: #F2F2F2;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.myob-img{
+    transition: all ease 0.5s;
+    filter: grayscale(100);
+}
+
+.myob-row{
+    margin-top: 40px;
+}
+
+.myob-img:hover{
+    scale: 1.2;
+    filter: brightness(100%);
+}
+
+/* ---------------------------services------------------------- */
+
+.services-heding{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.services-heding h2{
+    font-weight: bold;
+}
+
+.services-heding p{
+    color: rgb(57, 56, 56);
+    margin-top: 20px;
+}
+
+.card-n1{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    background-color: #CC1616;
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    margin-left: 40%;
+    margin-top: 50px;
+    box-shadow: 10px 5px 0 #eaa6a6;
+}
+
+.card-n1 i{
+    margin-top: 20px;
+}
+
+.card-headin1{
+    font-size: 25px;
+    padding: 0 15px;
+    margin-top: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.card-tex1 p{
+    color: gray;
+    padding: 15px 15px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.Action-background{
+    background:linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url(day-img/cta-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+}
+
+.blank{
+    margin-top: 70px;
+    color: white;
+}
+
+.services-heding1{
+    margin-top: 130px;
+    text-align: center;
+}
+
+.services-heding1 h2{
+    font-weight: bold;
+    color: white;
+}
+
+.services-heding1 p{
+    color: white;
+    margin-top: 20px;
+}
+
+
+.btns1{
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    width: 200px;
+    margin-top: 20px;
+    height: 40px;
+    transition: all ease 0.5s;
+}
+
+.btns1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.btns1 a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.btns1:hover{
+    border-color: #CC1616;
+    background-color: #CC1616;
+}
+
+
+/* ---------------------portfolio-------------------- */
+
+.Portfolio-main-box{
+    background-color: white;
+}
+
+
+
+/* --------------------pricing---------------------- */
+.Pricing-row{
+    margin-top: 100px;
+}
+
+.Pricing-card{
+    border: 1px solid transparent;
+    width: 99%;
+    justify-content: center;
+    height: auto;
+    margin-top: 30px;
+    text-align: center;
+    background-color: #F9F9F9;
+    border-radius: 10px;
+}
+
+.Pricing-card h3{
+    font-size: 19px;
+    margin-top: 50px;
+}
+
+.Pricing-card h4{
+    font-size: 45px;
+    color: #CC1616;
+    font-weight:400;
+    margin-top: 50px;
+}
+
+.Pricing-card span{
+    font-size: 16px;
+    color: gray;
+    font-weight: 400;
+}
+
+.Pricing-card ul{
+    list-style: none;
+    line-height: 40px;
+}
+
+.na{
+    text-decoration: line-through;
+    color: gray;
+}
+
+.buy{
+    width: 130px;
+    margin-top: 30px;
+    height: 35px;
+    color: white;
+    background-color: #CC1616;
+    border: #CC1616;
+    margin-bottom: 25px;
+    transition: all ease 0.5s;
+}
+
+.buy:hover{
+    background-color: #ce3838;
+}
+
+.Pricing-card1{
+    border: 1px solid transparent;
+    width: 99%;
+    justify-content: center;
+    height: auto;
+    margin-top: 30px;
+    text-align: center;
+    background-color: #CC1616;
+    border-radius: 10px;
+}
+
+.Pricing-card1 h3{
+    font-size: 19px;
+    margin-top: 50px;
+    color: white;
+}
+
+.Pricing-card1 h4{
+    font-size: 45px;
+    color: white;
+    font-weight:400;
+    margin-top: 50px;
+}
+
+.Pricing-card1 span{
+    font-size: 16px;
+    color: gray;
+    font-weight: 400;
+}
+
+.Pricing-card1 ul{
+    list-style: none;
+    line-height: 40px;
+    color: white;
+}
+
+.na1{
+    text-decoration: line-through;
+    color: white;
+}
+
+.buy1{
+    width: 130px;
+    margin-top: 30px;
+    height: 35px;
+    color: white;
+    background-color: #ce3838;
+    border: #ce3838;
+    margin-bottom: 25px;
+    transition: all ease 0.5s;
+}
+
+.buy1:hover{
+    background-color: white;
+    color: #CC1616;
+    font-weight: 500;
+}
+
+/* ----------------------team----------------------- */
+
+.team-card{
+    border: 1px solid transparent;
+    width: 99%;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    background-color: white;
+    box-shadow: 0 0 10px rgb(215, 214, 214);
+}
+
+.card-box{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-left: 25%;
+    margin-top: 30px;
+}
+
+.team-card img{
+    object-fit: cover;
+    width: 60%;
+    margin-top: 20px;
+    border-radius: 100%;
+}
+
+.team-card h5{
+    margin-top: 20px;
+}
+
+.team-card p{
+    padding: 0 20px;
+    font-size: 14px;
+    color: gray;
+    font-weight: 400;
+}
+
+.team-card ul{
+    display: flex;
+    list-style: none;
+    margin-left: 140px;
+}
+
+.team-card li{
+    margin-left: 5px;
+    font-size: 20px;
+    color: gray;
+}
+
+.team-card li:hover{
+    color: #CC1616;
+}
+
+/* -------------------contact--------------- */
+
+.location{
+    border: 1px solid transparent;
+    width: 99%;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    background-color: white;
+    box-shadow: 0 0 10px rgb(215, 214, 214);
+}
+
+.location i{
+    font-size: 40px;
+    color: #CC1616;
+    margin-top: 20px;
+}
+
+.location h5{
+    color: rgb(84, 82, 82);
+    margin-top: 10px;
+}
+
+.location p{
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+input{
+    width: 100%;
+    height: 40px;
+    padding: 20px 15px;
+    margin-top: 10px;
+}
+
+textarea{
+    padding: 10px 15px;
+    width: 100%;
+}
+
+.send{
+    width: 150px;
+    margin-top: 20px;
+    height: 40px;
+    color: white;
+    background-color: #CC1616;
+    border: #CC1616;
+    margin-bottom: 25px;
+    transition: all ease 0.5s;
+}
+
+.send:hover{
+    background-color: #ce3838;
+    color: white;
+}
+
+.navbar-toggler span{
+    color: white;
+}
+
+#footer{
+    background-color: black;
+    margin-top: 70px;
+    font-size: 14px;
+}
+
+.info-box{
+    border-top: 5px solid #CC1616;
+    background-color: #191919;
+    text-align: center;
+    color: white;
+    width: 98%;
+    margin-bottom: 30px;
+}
+
+.info-box h1{
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.footer-link a{
+    font-size: 18px;
+    display: inline-block;
+    background: #262626;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.5s;
+    margin-bottom: 25px;
+}
+
+.footer-link a:hover{
+    background-color: #CC1616;
+    color: white;
+}
+
+.info-links{
+    margin-bottom: 30px;
+}
+
+.info-links h4{
+    color: white;
+    font-size: 16px;
+}
+
+.info-links ul {
+    list-style: none;
+    line-height: 35px;
+}
+
+.info-links ul a{
+    list-style: none;
+    color: white;
+    line-height: 35px;
+    text-decoration: none;
+}
+
+.info-links ul a:hover{
+    color: #CC1616;
+}
+
+.info-links span{
+    color: #CC1616;
+    font-family: sans-serif;
+} 
+
+.info-links p{
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+.btnd{
+    background-color: #CC1616;
+    border: none;
+    color: white;
+    width: 30%;
+    font-size: 17px;
+}
+
+.btn-group input{
+    width: 242px;
+}
+
+.hr-font{
+    color: #fff;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.hr-font span a{
+    color: #CC1616;
+    text-decoration: none;
+}
